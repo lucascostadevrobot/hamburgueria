@@ -1,0 +1,73 @@
+body{
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(241, 241, 241);
+}
+
+h1{
+    font-size: 100px;
+    margin: auto;
+    padding: 100px;
+}
+
+h1 p{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+button{
+    margin: auto; 
+    width: auto;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: rgb(94, 255, 129);
+    color: black;
+
+}
+footer{
+ width: 100%;
+ margin: auto;
+ justify-content: center;
+ align-items: center;
+ display: flex;
+
+}
+
+.cabecalho{
+    display: flex;
+    margin: auto;
+    width: 100vw
+}
+
+.titulo-principal{
+    color: rgb(34, 34, 34);
+}
+
+.img-hamburguer{
+    padding-right: 320px;
+    width: 750px;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+/*Inicialliza a seção dos Cards*/
+.container-cards{
+    min-width: 100vw;  /* O elemento nunca será menor que a largura da viewport */
+    min-height: 40vh; /* O elemento nunca será menor que a altura da viewport */
+    background-color: rgb(72, 123, 233);
+}
+
+.container-cards h2{
+    margin: auto;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transform: none;
+    align-items: center;
+}
+/*Inicialliza a seção dos Cards*/
